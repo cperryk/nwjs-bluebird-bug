@@ -2,9 +2,7 @@ var Promise = require('bluebird');
 
 function asyncFnc(){
 	return new Promise(function(resolve, reject){
-		setTimeout(function(){
-			resolve();
-		}, 1);
+		setTimeout(resolve, 1);
 	});
 }
 

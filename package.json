@@ -1,0 +1,9 @@
+{
+  "name": "SlateMail",
+  "main": "bluebirdtest.html",
+  "window":{
+  	"toolbar":true,
+  	"frame":true,
+  	"icon":"appicon.png"
+  }
+}
